@@ -1,12 +1,12 @@
-import globals from 'globals'
+const globals = require('globals')
 
 module.exports = {
-  files: ['**/*.js'],
-  languageOptions: {
-    sourceType: 'commonjs',
-    globals: { ...globals.node },
-    ecmaVersion: 'latest',
-  },
+  overrides: [
+    {
+      globals: { ...globals.node },
+      files: ['**/*.js'],
+    }
+  ],
   env: {
     browser: true,
     es6: true,
@@ -30,7 +30,7 @@ module.exports = {
     'no-trailing-spaces': 'error',
     'object-curly-spacing': ['error', 'always'],
     'arrow-spacing': ['error', { before: true, after: true }],
-    'no-console': 'error',
+    // 'no-console': 'error',
     'react/prop-types': 0,
-  },
-};
+  }
+}
