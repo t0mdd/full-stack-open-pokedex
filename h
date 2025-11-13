@@ -1,0 +1,324 @@
+[33mcommit 589ef8adbca0c3b8048b1c3aec2d4b3e778323cf[m[33m ([m[1;36mHEAD -> [m[1;32mpr-test-2[m[33m)[m
+Author: Tom <>
+Date:   Wed Nov 12 21:21:00 2025 +0000
+
+    add content to hello.txt
+
+[33mcommit 5d4a35f5d7b66325260e5c3d3fcd75aa726a9e2f[m[33m ([m[1;31morigin/pr-test-2[m[33m)[m
+Author: Tom <>
+Date:   Wed Nov 12 21:18:37 2025 +0000
+
+    add test file
+
+[33mcommit 4b1607a0a316a07f5d4b111adb0f56f7daa29362[m[33m ([m[1;31morigin/pr-test[m[33m)[m
+Author: Tom <>
+Date:   Wed Nov 12 21:14:27 2025 +0000
+
+    another changey to test cicd
+
+[33mcommit 05fea158da3d52b10f7b79ddcd49fbbdbb3b7a32[m
+Author: Tom <>
+Date:   Wed Nov 12 21:10:29 2025 +0000
+
+    trigger ci pipeline on pull request
+
+[33mcommit d7fde9a38bc071b36d636b240619ffafbcb11cca[m
+Merge: 297c3a6 ca98168
+Author: t0mdd <101930480+t0mdd@users.noreply.github.com>
+Date:   Wed Nov 12 20:34:39 2025 +0000
+
+    Merge pull request #1 from t0mdd/pr-test
+    
+    change a log just to test prs
+
+[33mcommit ca981684e40407f2f97bd88c29b535b34cff5add[m
+Author: Tom <>
+Date:   Wed Nov 12 20:29:06 2025 +0000
+
+    change a log just to test prs
+
+[33mcommit 297c3a6973ecba11b8b44676859e2f8d3af6312d[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Thu Nov 6 21:28:19 2025 +0000
+
+    fix health route, render was good and didnt deploy :)
+
+[33mcommit 9d86fdc9a3481ac4473f7b6a84abbcd3e8521346[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Thu Nov 6 21:21:25 2025 +0000
+
+    add broken health route to check that the deployment will not go ahead in this case
+
+[33mcommit cc1c9e43ad4ff14e5a663c0df2419ad87fd5f956[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Thu Nov 6 21:13:08 2025 +0000
+
+    add health check route
+
+[33mcommit 2da1e43031ef83b21092f4dccebaff7d99755839[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Thu Nov 6 21:08:49 2025 +0000
+
+    add deployment step to ci/cd pipeline
+
+[33mcommit 7bdb5dd5eeee7da1432f03863051f47110c84d73[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Wed Nov 5 21:20:16 2025 +0000
+
+    add a new e2e test
+
+[33mcommit 2ad7a1fe368defe5a92ce097c9e6a386fa9495f1[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Wed Nov 5 20:51:53 2025 +0000
+
+    add e2e tests and add them to ci/cd workflow
+
+[33mcommit 9c4e81159e05540c0a9f10f704b57e5df5f3835b[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Tue Nov 4 22:31:55 2025 +0000
+
+    add build and tests to deployment pipeline workflow
+
+[33mcommit 748b6f018cfc33058354bb4c503c18556abe6b98[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Tue Nov 4 22:24:29 2025 +0000
+
+    more fixes to appease the linter
+
+[33mcommit 706e8e7e225978ad706f9bfb1c0757c7708e21f9[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Tue Nov 4 22:00:06 2025 +0000
+
+    appease the linter
+
+[33mcommit 91d2cd281946fba059dae692a5e177edc175d0dc[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Tue Nov 4 21:36:24 2025 +0000
+
+    fix sillyDumb buggins in pipeline config
+
+[33mcommit 1da5719173bfdc71a7736b6fec16fdbc8d752d0d[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Tue Nov 4 21:28:52 2025 +0000
+
+    add pipeline workflow config (just lints currently)
+
+[33mcommit 4bc9f11815d9b5c14d3d44129d9895ea2637e70b[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Tue Nov 4 19:41:33 2025 +0000
+
+    some more bullshit tests :]
+
+[33mcommit 938bf3eb3cc47933c124b6e4a668e038a1b77ffd[m
+Author: Tom <tom@measuredm.co.uk>
+Date:   Tue Nov 4 19:34:20 2025 +0000
+
+    add test workflow
+
+[33mcommit b2c23a880051a016e8a27582e1d7507911e72456[m[33m ([m[1;31mupstream/main[m[33m)[m
+Author: Matti Luukkainen <mluukkai@iki.fi>
+Date:   Mon Mar 18 13:44:06 2024 +0200
+
+    Update PokemonPage.jest.spec.jsx
+
+[33mcommit ad63f0fa58add99c79b5e4b6ffbb69b5371612cf[m
+Author: Matti Luukkainen <mluukkai@iki.fi>
+Date:   Thu Jan 11 17:14:44 2024 +0200
+
+    Update app.js
+
+[33mcommit 7a2755208b53c1f878e0fca6b76124a6c193c949[m
+Author: Matti Luukkainen <mluukkai@iki.fi>
+Date:   Wed Jan 10 16:58:54 2024 +0200
+
+    Update app.js
+
+[33mcommit d2abb20448ae1375d16d479503ea901145a5907c[m
+Author: Matti Luukkainen <mluukkai@iki.fi>
+Date:   Wed Jan 10 12:14:43 2024 +0200
+
+    Update PokemonPage.jest.spec.jsx
+
+[33mcommit c9ccfb742745b21a1b043c6e9a141cc8ef47b8c3[m
+Author: Matti Luukkainen <mluukkai@iki.fi>
+Date:   Mon Jan 8 21:02:39 2024 +0200
+
+    tests fixed
+
+[33mcommit 0b4cd545381efada791008b64b84bf66d105b584[m
+Author: Matti Luukkainen <mluukkai@iki.fi>
+Date:   Mon Jan 8 14:30:09 2024 +0200
+
+    node 20
+
+[33mcommit 94c395bdd936884175b232bd9fe4374ba1cb5f3f[m
+Merge: a9880b6 69a75b3
+Author: Tomi Hiltunen <tomi@smartly.io>
+Date:   Fri Sep 16 15:41:43 2022 +0300
+
+    Merge pull request #458 from mluukkai/patch-1
+    
+    Update App.jest.spec.jsx
+
+[33mcommit a9880b6a059f3c1e44d22a14aced76f5ffb0c5ac[m
+Merge: ef1abec 1d69e73
+Author: Tomi Hiltunen <tomi@smartly.io>
+Date:   Fri Sep 16 15:41:30 2022 +0300
+
+    Merge pull request #459 from mluukkai/patch-2
+    
+    Update App.jsx
+
+[33mcommit 1d69e73ea42eaa509d34fe12533673d148c8793d[m
+Author: Matti Luukkainen <mluukkai@iki.fi>
+Date:   Fri Sep 16 11:08:27 2022 +0300
+
+    Update App.jsx
+
+[33mcommit 69a75b35c7e0e9d7db46d94abf18656e2790790d[m
+Author: Matti Luukkainen <mluukkai@iki.fi>
+Date:   Fri Sep 16 11:06:53 2022 +0300
+
+    Update App.jest.spec.jsx
+
+[33mcommit ef1abecff5f695e7ff55827b5d0a3aead5c196c9[m
+Merge: 66de1c4 83e3f6a
+Author: Anton Rautio <anton.rautio@smartly.io>
+Date:   Wed Oct 14 15:37:09 2020 +0300
+
+    Merge pull request #12 from smartlyio/serve-production-build
+    
+    Add command to serve production build
+
+[33mcommit 83e3f6acb00d02e7d0b4fc23320877167d34d036[m
+Author: Anton Rautio <antonrautio@Antons-MacBook-Pro.local>
+Date:   Wed Oct 14 11:02:00 2020 +0300
+
+    Add command to serve production build
+
+[33mcommit 66de1c4a948e520081dc83f5513a497ff8c77989[m
+Merge: 033f5e2 dafc670
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Thu Oct 8 06:53:18 2020 +0200
+
+    Merge pull request #11 from smartlyio/dependabot/npm_and_yarn/websocket-extensions-0.1.4
+    
+    Bump websocket-extensions from 0.1.3 to 0.1.4
+
+[33mcommit dafc67031897158f4d37f90c4382436cc9c1d8bd[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Oct 8 04:52:16 2020 +0000
+
+    Bump websocket-extensions from 0.1.3 to 0.1.4
+    
+    Bumps [websocket-extensions](https://github.com/faye/websocket-extensions-node) from 0.1.3 to 0.1.4.
+    - [Release notes](https://github.com/faye/websocket-extensions-node/releases)
+    - [Changelog](https://github.com/faye/websocket-extensions-node/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/faye/websocket-extensions-node/compare/0.1.3...0.1.4)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 033f5e2001332b0e0e3447b2fd3058022984493c[m
+Merge: eabc27c 1be9178
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Wed Oct 7 15:35:58 2020 +0200
+
+    Merge pull request #10 from smartlyio/update-deps
+    
+    Update deps
+
+[33mcommit 1be9178982f45d18856c15399182ed266d07150e[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Wed Oct 7 16:35:27 2020 +0300
+
+    Update deps
+
+[33mcommit eabc27cf440a04c05baa64eb24bfcdc42696a803[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Thu Jul 23 07:58:16 2020 +0200
+
+    Update README
+
+[33mcommit 48f1787318aeb1fd9d0759c89ead878811aeaa51[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Tue Jun 2 11:03:11 2020 +0300
+
+    Minor css improvement
+
+[33mcommit 617a0b1c839cc38c7d8a540d7dd2508304b8d97f[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Tue Jun 2 10:40:49 2020 +0300
+
+    Clean up PokemonPage props
+
+[33mcommit 51e0ab448ba3c123f45179fb8f9c791634893d17[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Tue Jun 2 10:14:34 2020 +0300
+
+    Improve tests
+
+[33mcommit bd4cccdd50186a2444c6ef5d53686354b1c106bf[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Tue Jun 2 10:06:56 2020 +0300
+
+    Extract formatName function and PokemonAbility
+
+[33mcommit 3ebfcbc23388794b686d64972c704726ecf1b1fc[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Tue Jun 2 09:37:06 2020 +0300
+
+    Rename Loader to LoadingSpinner
+
+[33mcommit 075150230b6d03c2a44d6660a2e4480b9c7e7edb[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Tue Jun 2 09:35:17 2020 +0300
+
+    Rename pokemons to pokemon
+
+[33mcommit 91be4738baa2223406c7c1491845e996dabf8747[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Wed May 27 15:49:06 2020 +0300
+
+    Update README
+
+[33mcommit d6422c789597e1dd383c86db247138fecae58a01[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Wed May 27 15:24:16 2020 +0300
+
+    Add tests
+
+[33mcommit 8179654d1456a87f457a9219095ea479e341881b[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Wed May 27 08:49:59 2020 +0300
+
+    Fix vulnerabilities
+
+[33mcommit fc2a3784f752d096a0297f5a7a58f8c4d46669b1[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Thu May 14 15:12:27 2020 +0300
+
+    App v1
+
+[33mcommit 0d8311b26018723309ee6642625a1460c401eb90[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Wed May 13 10:26:09 2020 +0300
+
+    Move index.html to /public
+
+[33mcommit 9da588b92d6a1be951bee41f55c4a482e2e9944c[m
+Author: Anna Osipova <anna.osipova@smartly.io>
+Date:   Wed May 13 10:23:00 2020 +0300
+
+    Add same eslint config as in course module 5
+
+[33mcommit a07e50efc9b0972295f7263c74bc80be3330b138[m
+Author: Anton Rautio <antonrautio@Antons-MacBook-Pro.local>
+Date:   Mon May 4 18:56:40 2020 +0300
+
+    Add initial react setup, eslint, jest
+
+[33mcommit 97e41da6b650983f2db479d227a5472c93756525[m
+Author: Anton Rautio <anton.rautio@smartly.io>
+Date:   Mon May 4 18:22:19 2020 +0300
+
+    Initial commit
