@@ -12,6 +12,7 @@ jobs:
   simple_deployment_pipeline:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    if: ${{ !contains(join(github.event.commits.*.message, ''), '#skip') }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
