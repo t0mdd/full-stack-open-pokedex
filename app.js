@@ -6,12 +6,21 @@ const PORT = process.env.PORT || 5000
 
 app.use(express.static('dist'))
 
-app.get('/version', (req, res) => {
-  res.send('4') // change this string to ensure a new version deployed
-})
+// app.get('/version', (req, res) => {
+//   res.send('4') // change this string to ensure a new version deployed
+// })
+
+const healthRequestCapacity = 3;
+let healthRequests = 0;
 
 app.get('/health', (req, res) => {
-  res.send('ok')
+  healthRequests++;
+  if (healthRequests > healthRequestCapacity) {
+    res.sendStatus(500)
+  }
+  else {
+    res.send('ok')
+  }
 })
 
 app.listen(PORT, () => {
