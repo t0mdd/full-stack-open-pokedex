@@ -6,7 +6,6 @@ on:
 
 jobs:
   health_check:
-    needs: [simple_deployment_pipeline]
     runs-on: ubuntu-latest
     steps:
       - name: URL Health Check
